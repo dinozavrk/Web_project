@@ -1,0 +1,63 @@
+.zag1, .zag2, .zag3, .zag4 {
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: var(--third-color);
+    white-space: pre-wrap;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.lorem1, .lorem2, .lorem3, .lorem4 {
+    width: 430px;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: var(--third-color);
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.ng1, .ng2, .ng3, .ng4 {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: bold;
+    color: var(--color-exp);
+    font-size: 100px;
+}
+
+.year1 {
+    margin-top: 60px;
+    width: 590px;
+    height: 338px;
+    border: 1px solid var(--color-bac);
+    border-radius: 10px;
+}
+
+.year2 {
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 590px;
+    height: 338px;
+    border: 1px solid var(--color-bac);
+    border-radius: 10px;
+}
+
+.year3 {
+    margin-top: 20px;
+    width: 590px;
+    height: 338px;
+    border: 1px solid var(--color-bac);
+    border-radius: 10px;
+}
+
+.year4 {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 590px;
+    height: 338px;
+    border: 1px solid var(--color-bac);
+    border-radius: 10px;
+}
+
+.d-flex2 {
+    display: flex;
+}

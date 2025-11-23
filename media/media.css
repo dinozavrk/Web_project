@@ -1,0 +1,324 @@
+@media (max-width: 320px) {
+    .test {
+        /* margin: 0 auto; */
+        max-width: 320px;
+        display: block;
+    }
+
+    .muz {
+        margin-top: 20px;
+        width: 320px;
+    }
+
+    .curv {
+        margin-top: 10px;
+        width: 320px;
+    }
+
+    .text1 {
+        width: 280px;
+    }
+
+    .art {
+        margin-left: 20px;
+    }
+
+    .icon {
+        margin-left: 20px;
+    }
+
+    .ulki {
+        width: 280px;
+    }
+}
+
+@media (max-width: 320px) {  /*картинки*/
+    .art2 {
+        width: 280px;
+        margin-left: 20px;
+    }
+
+    .sec3 {
+        padding-bottom: 40px;
+    }
+
+    .cool, .cool2, .cool3, .cool4, .cool5, .cool6 {
+        font-size: 20px;
+    }
+
+    .parent {
+        margin-bottom: 80px;
+        margin-left: 20px;
+        max-width: 280px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(18, 1fr);
+        gap: 20px;
+    }
+        
+    .div1 {
+        grid-row: span 3 / span 3;
+    }
+
+    .div2 {
+        grid-row: span 3 / span 3;
+        grid-row-start: 4;
+    }
+
+    .div3 {
+        grid-row: span 3 / span 3;
+        grid-row-start: 7;
+        grid-column-start: 1;
+    }
+
+    .div4 {
+        grid-row: span 3 / span 3;
+        grid-row-start: 10;
+        grid-column-start: 1;
+    }
+
+    .div5 {
+        grid-row: span 3 / span 3;
+        grid-row-start: 13;
+        grid-column-start: 1;
+    }
+
+    .div6 {
+        grid-row: span 3 / span 3;
+        grid-row-start: 16;
+        grid-column-start: 1;
+    }
+
+    .rot2, .rot3, .rot4, .rot5 {
+        width: 280px;
+        height: 360px;
+    }
+
+    .rot, .rot6 {
+        width: 280px;
+        height: 360px;
+    }
+
+    .rot6 {
+        margin-top: 0;
+    }
+
+    .card2, .card3, .card4, .card5 {
+        width: 280px;
+        height: 360px;
+    }
+
+    .card1, .card6 {
+        width: 280px;
+        height: 360px;
+    }
+
+    .reedm2, .reedm3, .reedm4, .reedm5 {
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 120px;
+        border-radius: 5px;
+        border: 0;
+    }
+
+    .reedm, .reedm6 {
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+        margin-top: 140px;
+    }
+
+    .category, .category2, .category3, .category4, .category5, .category6 {
+        font-size: 12px;
+    }
+
+    .d-flex2 {
+        display: block;
+    }
+}
+
+@media (max-width: 320px) { /*форма*/
+    .text5 {
+        width: 280px;
+    }
+
+    .lep {
+        width: 280px;
+    }
+
+    .divsec5 {
+        margin-left: 20px;
+        flex-direction: column;
+    }
+
+    .f-flex {
+        flex-direction: column;
+    }
+
+    .ustal {
+        max-width: 280px;
+        flex-direction: column;
+    }
+
+    textarea {
+        max-width: 280px;
+    }
+
+    .form {
+        max-width: 280px;
+    }
+
+    .form__input {
+        max-width: 280px;
+    }
+
+    .clicking {
+        text-align: center;
+    }
+
+    .button2 {
+        width: 280px;
+    }
+
+    .art4 {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:320px) {  /*годы 4 карточки*/
+    .d-flex2 {
+        margin-left: 20px;
+    }
+
+    .cen {
+        white-space: none;
+        text-align: start;
+        margin-left: 20px;
+        max-width: 280px;
+    }
+
+    .year1, .year2, .year3, .year4 {
+        width: 280px;
+        height: 317px;
+    }
+
+    .zag1, .zag2, .zag3, .zag4 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .lorem1, .lorem2, .lorem3, .lorem4 {
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    .ng1, .ng2, .ng3, .ng4 {
+        margin-top: 10px;
+        font-size: 80px;
+        margin-left: 20px;
+    }
+
+    .year2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .year4 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:320px) {  /*Developer*/
+    .b1, .b2, .b3 {
+        width: 280px;
+    }
+
+    .ch1 {
+        width: 231px;
+    }
+
+    .ch2 {
+        width: 185px;
+    }
+
+    .ch3 {
+        width: 136px;
+    }
+
+    .text4 {
+        white-space: wrap;
+    }
+
+    .art3 {
+        text-align: start;
+        margin-left: 20px;
+        max-width: 280px;
+    }
+
+    .devv {
+        margin-left: 20px;
+        max-width: 280px;
+        display: block;
+    }
+}
+
+@media (max-width: 320px) {
+    .sec1 {
+        margin: 0 auto;
+        width: 320px;
+    }
+
+    .bgc1 {
+        width: 320px;
+        margin-right: 100px;
+    }
+
+    .img1 {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .scr {
+        display: none;
+    }
+
+    .icon {
+        margin-top: 40px;
+    }
+
+    .bgc3 {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width:320px) {  /*Header*/
+    /* .fluid {
+        width: 320px;
+
+    } */
+    /* .theme {
+        display: none;
+    } */
+
+    .nazvanie {
+        position: fixed;
+        padding: 30px 0;
+    }
+
+    .button1 {
+        display: none;
+    }
+}
+
+@media (max-width:320px) {
+    .palka1, .palka2, .palka3 {
+        display: none;
+    }
+
+    .ul2 {
+        flex-direction: column;
+        text-align: center;
+    }
+}

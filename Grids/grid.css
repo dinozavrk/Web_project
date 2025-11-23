@@ -1,0 +1,22 @@
+.ulki {
+    align-items: center;
+    font-family: "Inter-Regular";
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    max-width: 350px;
+}
+
+.ulki li {
+    padding: 10px;
+    width: max-content;
+    background-color: var(--third-color--abs);
+    color: #fff;
+}
+
+.lishki {
+    margin-top: 60px;
+}

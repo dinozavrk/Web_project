@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "inter";
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.art {
+    max-width: 500px;
+}
+
+.ul1 {
+    display: flex;
+    /* gap: 60px; */
+    list-style: none;
+}
+
+.nazvanie {
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 1200px;
+    height: 120px;
+}
+
+.cont {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.divsec {
+    text-align: center;
+}
+
+.sec3 {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.bgc4 {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.sec5 {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.bgc5 {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.muz {
+    width: 400px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.nazvanie {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.test {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 144px; */
+    /* justify-content: space-between; */
+}
+
+.img1 {
+    margin-left: 144px;
+}
+
+.curv {
+    margin-top: 40px;
+    width: 444px;
+    height: 316px;
+}
+
+.strelka {
+    margin-left: 43px;
+    /* margin-top: 40px; */
+    opacity: 25%;
+    background-color: var(--third-color);
+    height: 215px;
+    width: 2px;
+}
+
+.scr {
+    margin-left: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* position: relative; */
+    display: block;
+    align-items: center;
+    /* rotate: -90deg; */
+}
+
+.divsec2 {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.cen {
+    text-align: center;
+}
+
+.lep {
+    margin-right: 105px;
+    margin-top: 40px;
+    width: 400px;
+    background-color: var(--secondary-color);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.location {
+    margin: 0;
+}
+
+.sec2 {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.sec4 {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.sec1 {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}

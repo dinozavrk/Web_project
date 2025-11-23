@@ -1,0 +1,67 @@
+.palka1, .palka2, .palka3 {
+    width: 1px;
+    height: 24px;
+    background-color: var(--primary-color-dark2);
+}
+
+.sec6 {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.art6 {
+    text-align: center;
+}
+
+.foot {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.ul2 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+}
+
+.ul2 li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: var(--button-color);
+    font-weight: 500;
+}
+
+.head5 {
+    margin-top: 80px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--color-light-dark);
+}
+
+.text6 {
+    margin-top: 20px;
+    white-space: pre;
+    font-size: 10px;
+    line-height: 140%;
+    color: var(--color-light-dark);
+}
+
+.button3 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 105%;
+    color: #FFDA74;
+}
+
+.bat {
+    margin-top: 60px;
+    border: 0;
+    background: none;
+}

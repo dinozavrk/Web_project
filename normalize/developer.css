@@ -1,0 +1,52 @@
+.devv {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+
+.pol1 {
+    display: flex;
+    margin-top: 5px;
+}
+
+.ch1 {
+    background-color: var(--color-exp111);
+    width: 300px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.b1, .b2, .b3 {
+    background-color: #fff;
+    width: 400px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.pol2 {
+    display: flex;
+    margin-top: 5px;
+}
+
+.ch2 {
+    background-color: var(--color-exp111);
+    width: 259px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.pol3 {
+    display: flex;
+    margin-top: 5px;
+}
+
+.ch3 {
+    background-color: var(--color-exp111);
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+}

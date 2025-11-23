@@ -1,0 +1,131 @@
+.form {
+    background-color: var(--primary-color);
+    padding-top: 40px;
+    display: block;
+    width: 335px;
+    align-content: center; 
+}
+
+.form__label {
+    color: var(--third-color);
+    display: block;
+    font-weight: bold;
+    margin-block-end: 12px;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.form__label::after {
+    content: "*";
+    margin-left: 5px;
+    color: rgb(255, 0, 85)
+}
+
+.form__input{
+    width: 335px;
+    padding: 15px 5px;
+    font-size: 16px;
+    border: 1px solid var(--third-color25);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.form__input::placeholder{
+    color: var(--third-color25);
+}
+
+.form__input:valid{
+    border: 1px solid rgb(25, 255, 4);
+    outline: rgb(0, 255, 98);
+
+}
+
+.form__input:invalid:not(:placeholder-shown){
+    border: 1px solid rgb(255, 0, 0);
+    outline: 1px solid rgb(255, 0, 0);
+}
+
+.form__des{
+    color: var(--third-color);
+    font-size: 12px;
+    margin-block-end: 0px;
+}
+
+.f-flex {
+    display: flex;
+    gap: 20px;
+}
+
+textarea {
+    border: 1px solid var(--third-color25);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 690px;
+    height: 103px;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+h5::after {
+    content: "*";
+    margin-left: 5px;
+    color: rgb(255, 0, 85)
+}
+
+textarea::placeholder {
+    color: var(--third-color25);
+    padding: 25px 15px;
+    font-size: 16px;
+}
+
+.button2 {
+    min-width: 130px;
+    height: 52px;
+    font-size: 20px;
+    color: #fff;
+    background-color: var(--button-color);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button2:hover {
+    color:#fff;
+    background-color: var(--buttonclick-color);
+    border: none;
+}
+
+h5 {
+    color: var(--third-color);
+    margin-top: 17px;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+.divsec5 {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.ustal {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.clicking {
+    color: var(--third-color);
+    white-space: pre;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.clicking a {
+    color: var(--button-color);
+}
+
+.clicking a:hover {
+    color: var(--buttonclick-color);
+}

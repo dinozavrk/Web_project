@@ -1,0 +1,234 @@
+.nav {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul1 {
+    display: flex;
+    gap: 44px;
+    transition: .5s;
+}
+
+.ul1 li a {
+    color: var(--third-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: var(--button-color);
+    font-weight: 500;
+}
+
+.button4 {
+    border: 0;
+    background: none;
+}
+
+.theme {
+    border: 0;
+    background: none;
+    text-decoration: none;
+    color: var(--third-color);
+    font-size: 20px;
+    border: 0;
+}
+
+.theme:hover {
+    color: var(--button-color);
+    font-weight: 500;
+}
+
+.button1 {
+    color: #fff;
+    font-size: 20px;
+    width: 100px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    border: 0;
+}
+
+.button1:hover {
+    background-color: var(--buttonclick-color);
+    border: none;
+}
+
+.aboutme {
+    /* margin-top: 30px; */
+    color: var(--third-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 120%;
+    filter: opacity(25%);
+}
+
+h1 {
+    color: var(--third-color);
+    letter-spacing: 1px;
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.siniy {
+    color: var(--button-color);
+}
+
+.text1 {
+    color: var(--third-color);
+    white-space: pre-wrap;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.check {
+    /* margin-bottom: 60px; */
+    color: var(--third-color);
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: bold;
+}
+
+.skills {
+    /* margin-top: 140px; */
+    color: var(--third-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 120%;
+    filter: opacity(25%);
+}
+
+.head1 {
+    margin-top: 40px;
+    color: var(--third-color);
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.text2 {
+    margin-top: 20px;
+    color: var(--third-color);
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.prjcts {
+    /* margin-top: 80px; */
+    color: var(--third-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 120%;
+    filter: opacity(25%);
+}
+
+.head2 {
+    margin-top: 40px;
+    color: var(--third-color);
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.text3 {
+    margin-top: 20px;
+    color: var(--third-color);
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.scroll {
+    margin-top: 45px;
+    white-space: pre;
+    color: var(--third-color);
+    font-size: 16px;
+    line-height: 140%;
+    filter: opacity(25%);
+    rotate: -90deg;
+}
+
+/* .strelka {
+    color: #1B1B1B;
+    filter: opacity(50%);
+} */
+
+h3 {
+    color: var(--third-color);
+    font-size: 24px;
+    line-height: 140%;
+    margin-top: 35px;
+}
+
+.exp {
+    color: var(--third-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 120%;
+    filter: opacity(25%);
+}
+
+.head3 {
+    margin-top: 40px;
+    color: var(--third-color);
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.text4 {
+    margin-top: 20px;
+    color: var(--third-color);
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.con {
+    /* margin-top: 80px; */
+    color: var(--third-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 120%;
+    filter: opacity(25%);
+}
+
+.head4 {
+    margin-top: 40px;
+    color: var(--third-color);
+    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.text5 {
+    width: 500px;
+    margin-top: 20px;
+    color: var(--third-color);
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.lep h3 {
+    color: var(--third-color);
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.lep p {
+    color: var(--third-color);
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 10px;
+}

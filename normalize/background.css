@@ -1,0 +1,30 @@
+.bgc1, .bgc2 {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--secondary-color);
+}
+
+.bgc3 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--primary-color);
+}
+
+.sec5 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--primary-color);
+}
+
+.sec3 {
+    padding-top: 80px;
+    background-color: var(--primary-color);
+}
+
+.sec6 {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--primary-color-dark);
+}

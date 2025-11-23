@@ -1,0 +1,14 @@
+@import url(../Grids/grid.css);
+@import url(../normalize/test.css);
+@import url(../normalize/text.css);
+@import url(../font.css);
+@import url(../normalize/developer.css);
+@import url(../normalize/background.css);
+@import url(../Grids/cards.css);
+@import url(../normalize/expirience.css);
+@import url(../normalize/icon.css);
+@import url(../media/media.css);
+@import url(../normalize/form.css);
+@import url(../media/menu.css);
+@import url(../normalize/footer.css);
+@import url(./var.css);
